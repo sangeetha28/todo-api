@@ -4,8 +4,10 @@ RSpec.describe 'Todos API', type: :request do
   let!(:todos) { create_list(:todo, 10) }
   let(:todo_id) { todos.first.id }
 
+  let(:headers) {valid_headers}
+
   describe 'GET /TODO' do
-    before { get '/todos' }
+    before { get '/todos' ,params: {}, headers: headers }
 
     it 'returns todos' do
       expect(json).not_to be_empty
@@ -18,7 +20,7 @@ RSpec.describe 'Todos API', type: :request do
   end
 
   describe 'GET /TODO/:id' do
-    before { get "/todos/#{todo_id}" }
+    before { get "/todos/#{todo_id}" , params: {}, headers: headers}
 
     it 'returns todo' do
       expect(json).not_to be_empty
@@ -36,7 +38,7 @@ RSpec.describe 'Todos API', type: :request do
     let(:todo_id) { 100 }
 
     describe 'GET /TODO' do
-      before { get "/todos/#{todo_id}" }
+      before { get "/todos/#{todo_id}", params: {}, headers: headers }
 
       it 'returns status 404' do
         puts "response is #{response}"

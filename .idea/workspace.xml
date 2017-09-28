@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05f5c5b5-103d-4317-a82c-cd327208c51e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/todos-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb" afterPath="$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/todo_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/todo_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/authorization_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/support/authorization_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/request_spec_helper.rb" afterPath="$PROJECT_DIR$/spec/support/request_spec_helper.rb" />
     </list>
     <ignored path="todos-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="authorize_api_requests_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb">
+      <file leaf-file-name="users_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/requests/users_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="285">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -58,10 +58,7 @@
         <option value="$PROJECT_DIR$/spec/factories/items.rb" />
         <option value="$PROJECT_DIR$/spec/support/request_spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/todos.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/response.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/todo_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
         <option value="$PROJECT_DIR$/spec/requests/items_spec.rb" />
@@ -70,10 +67,20 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/app/lib/message.rb" />
         <option value="$PROJECT_DIR$/app/auth/authorize_api_requests.rb" />
-        <option value="$PROJECT_DIR$/spec/support/authorization_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/lib/json_web_token.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb" />
+        <option value="$PROJECT_DIR$/spec/auth/authorize_user-spec.rb" />
         <option value="$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/application_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/todo_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/authentication_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/authorization_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/auth/authenticate_user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/authentication_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/users_spec.rb" />
       </list>
     </option>
   </component>
@@ -84,8 +91,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="10" />
+    <option name="y" value="23" />
+    <option name="width" value="1430" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -112,9 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,6 +205,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -229,6 +273,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -244,6 +302,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,6 +403,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -377,25 +461,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application_cable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todos-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Automation/notonthehighstreet" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2229021" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1045,16 +1151,31 @@
       <workItem from="1501670754075" duration="2584000" />
       <workItem from="1501692152182" duration="5445000" />
       <workItem from="1501790988595" duration="322000" />
-      <workItem from="1501834735484" duration="3895000" />
+      <workItem from="1501834735484" duration="5223000" />
+      <workItem from="1502274480543" duration="970000" />
+      <workItem from="1502781070722" duration="287000" />
+      <workItem from="1502830698367" duration="315000" />
+      <workItem from="1502878503195" duration="427000" />
+      <workItem from="1502912476440" duration="514000" />
+      <workItem from="1503045682642" duration="114000" />
+      <workItem from="1503422466345" duration="841000" />
+      <workItem from="1504009809591" duration="582000" />
+      <workItem from="1504088293203" duration="1371000" />
+      <workItem from="1504097207825" duration="514000" />
+      <workItem from="1504520744473" duration="369000" />
+      <workItem from="1504776069151" duration="467000" />
+      <workItem from="1505311687346" duration="7610000" />
+      <workItem from="1506335188944" duration="5612000" />
+      <workItem from="1506528585762" duration="2052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34939000" />
+    <option name="totallyTimeSpent" value="58312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="23" width="1430" height="797" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1063,23 +1184,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25314686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1098,27 +1219,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/auth/authorize_api_requests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1126,33 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501940748000" expanded="true" signature="26:789" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="55:80" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="119:154" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="200:453" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="479:552" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="577:785" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:714" ph="if ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:779" ph="if ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth/authorize_api_requests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501940748000" expanded="true" signature="26:789" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="55:80" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="119:154" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="200:453" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="479:552" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="577:785" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:714" ph="if ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:779" ph="if ... end" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,20 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/response.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1230,55 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/todo_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/item_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/todos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1303,13 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/channels/application_cable/channel.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1317,43 +1324,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/message.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/json_web_token.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="44" />
           <folding>
-            <marker date="1501774702000" expanded="true" signature="53:93" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="125:157" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="183:209" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="235:261" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="286:319" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="347:388" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="420:461" ph=" ... end" />
-            <marker date="1501774702000" expanded="true" signature="487:556" ph=" ... end" />
+            <marker date="1501941822000" expanded="true" signature="127:197" ph=" ... end" />
+            <marker date="1501941822000" expanded="true" signature="223:495" ph=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/request_spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <marker date="1501349281000" expanded="true" signature="27:83" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="23:1215" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="84:105" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="126:147" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="168:189" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="214:235" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="249:875" ph="do ... end" />
+            <marker date="1501941918000" expanded="true" signature="672:742" ph="do ... end" />
+            <marker date="1501941918000" expanded="true" signature="788:869" ph="do ... end" />
+            <marker date="1501941918000" expanded="true" signature="983:1054" ph=" ... end" />
+            <marker date="1501941918000" expanded="true" signature="1148:1211" ph=" ... end" />
           </folding>
         </state>
       </provider>
@@ -1365,10 +1382,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/todos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501598324000" expanded="true" signature="10:168" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/auth/authenticate_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1506357641000" expanded="true" signature="22:466" ph=" ... end" />
+            <marker date="1506357641000" expanded="true" signature="65:119" ph=" ... end" />
+            <marker date="1506357641000" expanded="true" signature="158:214" ph=" ... end" />
+            <marker date="1506357641000" expanded="true" signature="271:460" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/request_spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1502229880000" expanded="true" signature="35:71" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/authorization_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <marker date="1506356717000" expanded="true" signature="58:140" ph=" ... end" />
+            <marker date="1506356717000" expanded="true" signature="180:249" ph=" ... end" />
+            <marker date="1506356717000" expanded="true" signature="269:381" ph=" ... end" />
+            <marker date="1506356717000" expanded="true" signature="404:495" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/auth/authorize_api_requests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="26" />
+          <folding>
+            <marker date="1501940748000" expanded="true" signature="55:80" ph=" ... end" />
+            <marker date="1501940748000" expanded="true" signature="119:154" ph=" ... end" />
+            <marker date="1501940748000" expanded="true" signature="200:453" ph=" ... end" />
+            <marker date="1501940748000" expanded="true" signature="479:552" ph=" ... end" />
+            <marker date="1501940748000" expanded="true" signature="577:785" ph=" ... end" />
+            <marker date="1501940748000" expanded="true" signature="618:714" ph="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <marker date="1506359772000" expanded="true" signature="27:281" ph=" ... end" />
+            <marker date="1506359772000" expanded="true" signature="188:276" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <marker date="1506528773000" expanded="true" signature="30:280" ph="do ... end" />
+            <marker date="1506528773000" expanded="true" signature="155:182" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/items_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <marker date="1500745166000" expanded="true" signature="74:81" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/items.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <marker date="1500746519000" expanded="true" signature="19:118" ph="do ... end" />
+            <marker date="1500746519000" expanded="true" signature="38:114" ph="do ... end" />
+            <marker date="1500746519000" expanded="true" signature="50:77" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/item_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1500658277000" expanded="true" signature="58:288" ph="do ... end" />
+            <marker date="1500658277000" expanded="true" signature="63:139" ph="do ... end" />
+            <marker date="1500658277000" expanded="true" signature="145:172" ph="{ ... }" />
+            <marker date="1500658277000" expanded="true" signature="175:240" ph="##..." />
+            <marker date="1500658277000" expanded="true" signature="246:284" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1500658182000" expanded="true" signature="58:386" ph="do ... end" />
+            <marker date="1500658182000" expanded="true" signature="63:146" ph="do ... end" />
+            <marker date="1500658182000" expanded="true" signature="152:200" ph="{ ... }" />
+            <marker date="1500658182000" expanded="true" signature="203:287" ph="##..." />
+            <marker date="1500658182000" expanded="true" signature="293:332" ph="{ ... }" />
+            <marker date="1500658182000" expanded="true" signature="338:382" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1501598290000" expanded="true" signature="58:337" ph="do ... end" />
+            <marker date="1501598290000" expanded="true" signature="66:94" ph="{ ... }" />
+            <marker date="1501598290000" expanded="true" signature="97:181" ph="##..." />
+            <marker date="1501598290000" expanded="true" signature="187:225" ph="{ ... }" />
+            <marker date="1501598290000" expanded="true" signature="231:278" ph="{ ... }" />
+            <marker date="1501598290000" expanded="true" signature="284:333" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <marker date="1500898256000" expanded="true" signature="21:112" ph=" ... end" />
+            <marker date="1500898256000" expanded="true" signature="63:108" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <marker date="1501519053000" expanded="true" signature="63:850" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="243:280" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="309:387" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="432:463" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="495:552" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="589:634" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="665:702" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="718:762" ph=" ... end" />
+            <marker date="1501519053000" expanded="true" signature="783:846" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <marker date="1501349922000" expanded="true" signature="62:722" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="197:249" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="278:354" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="384:416" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="448:505" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="542:587" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="618:662" ph=" ... end" />
+            <marker date="1501349922000" expanded="true" signature="678:717" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502231360000" expanded="true" signature="74:81" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,10 +1625,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/todo_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <marker date="1505730433000" expanded="true" signature="67:2742" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="85:111" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="128:146" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="164:179" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="204:464" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="218:264" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="289:368" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="400:458" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="493:877" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="507:564" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="588:781" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="813:871" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="913:1322" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="934:941" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="968:1316" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="984:1041" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="1073:1174" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1214:1308" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1350:2136" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1380:1417" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="1456:1795" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1472:1516" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="1550:1612" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1639:1696" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1728:1786" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1835:2128" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="1851:1896" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="1930:1992" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2019:2118" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2165:2525" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2195:2218" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="2257:2519" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2273:2326" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="2358:2412" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2449:2511" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2595:2738" ph="do ... end" />
+            <marker date="1505730433000" expanded="true" signature="2609:2639" ph="{ ... }" />
+            <marker date="1505730433000" expanded="true" signature="2674:2732" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/items_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="62" />
+        <state relative-caret-position="249">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="34" />
           <folding>
             <marker date="1501531769000" expanded="true" signature="73:3525" ph="do ... end" />
             <marker date="1501531769000" expanded="true" signature="90:107" ph="{ ... }" />
@@ -1438,122 +1728,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/items_controller_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="475">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
           <folding>
-            <marker date="1500745166000" expanded="true" signature="74:81" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="0:1049" ph="##..." />
+            <marker date="1506355975000" expanded="true" signature="1122:2383" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="1185:2379" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="1227:1244" ph="{ ... }" />
+            <marker date="1506355975000" expanded="true" signature="1299:1339" ph="{ ... }" />
+            <marker date="1506355975000" expanded="true" signature="1413:1521" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="1552:1667" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="1673:1837" ph="##..." />
+            <marker date="1506355975000" expanded="true" signature="1874:2071" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="1890:1957" ph="{ ... }" />
+            <marker date="1506355975000" expanded="true" signature="2002:2063" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="2165:2373" ph="do ... end" />
+            <marker date="1506355975000" expanded="true" signature="2181:2250" ph="{ ... }" />
+            <marker date="1506355975000" expanded="true" signature="2289:2365" ph="do ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth/authorize_api_requests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-          <folding>
-            <marker date="1501940748000" expanded="true" signature="26:789" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="55:80" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="119:154" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="200:453" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="479:552" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="577:785" ph=" ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:714" ph="if ... end" />
-            <marker date="1501940748000" expanded="true" signature="618:779" ph="if ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/authorization_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <marker date="1501940827000" expanded="true" signature="27:500" ph=" ... end" />
-            <marker date="1501940827000" expanded="true" signature="58:140" ph=" ... end" />
-            <marker date="1501940827000" expanded="true" signature="180:249" ph=" ... end" />
-            <marker date="1501940827000" expanded="true" signature="269:381" ph=" ... end" />
-            <marker date="1501940827000" expanded="true" signature="404:495" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500656896000" expanded="true" signature="23:77" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501598324000" expanded="true" signature="10:168" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500658415000" expanded="true" signature="10:118" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500656896000" expanded="true" signature="23:101" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/json_web_token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <marker date="1501941822000" expanded="true" signature="18:501" ph=" ... end" />
-            <marker date="1501941822000" expanded="true" signature="127:197" ph=" ... end" />
-            <marker date="1501941822000" expanded="true" signature="223:495" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb">
+    <entry file="file://$PROJECT_DIR$/spec/controllers/application_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1501941918000" expanded="true" signature="23:1215" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="84:105" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="126:147" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="168:189" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="214:235" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="249:875" ph="do ... end" />
-            <marker date="1501941918000" expanded="true" signature="672:742" ph="do ... end" />
-            <marker date="1501941918000" expanded="true" signature="788:869" ph="do ... end" />
-            <marker date="1501941918000" expanded="true" signature="983:1054" ph=" ... end" />
-            <marker date="1501941918000" expanded="true" signature="1148:1211" ph=" ... end" />
+            <marker date="1505729295000" expanded="true" signature="80:937" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="97:114" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="163:212" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="265:293" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="327:933" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="414:614" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="431:488" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="524:606" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="564:583" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="652:929" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="669:742" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="775:921" ph="do ... end" />
+            <marker date="1505729295000" expanded="true" signature="792:836" ph="{ ... }" />
+            <marker date="1505729295000" expanded="true" signature="816:835" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1506529145000" expanded="true" signature="30:370" ph=" ... end" />
+            <marker date="1506529145000" expanded="true" signature="161:293" ph=" ... end" />
+            <marker date="1506529145000" expanded="true" signature="323:365" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <marker date="1506529206000" expanded="true" signature="21:492" ph=" ... end" />
+            <marker date="1506529206000" expanded="true" signature="140:361" ph=" ... end" />
+            <marker date="1506529206000" expanded="true" signature="383:487" ph=" ... end" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/auth/authorize_api_requests_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <marker date="1505493800000" expanded="true" signature="60:2020" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="97:114" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="162:211" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="272:299" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="350:381" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="385:477" ph="##..." />
+            <marker date="1505493800000" expanded="true" signature="497:2016" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="585:866" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="621:856" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="952:2010" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="990:1181" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1034:1171" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1054:1082" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="1218:1561" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1259:1321" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="1414:1551" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1434:1462" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="1601:2002" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1625:1682" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="1713:1744" ph="{ ... }" />
+            <marker date="1505493800000" expanded="true" signature="1797:1992" ph="do ... end" />
+            <marker date="1505493800000" expanded="true" signature="1817:1837" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/auth/authorize_user-spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <marker date="1502230697000" expanded="true" signature="57:703" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="74:90" ph="{ ... }" />
+            <marker date="1502230697000" expanded="true" signature="117:179" ph="{ ... }" />
+            <marker date="1502230697000" expanded="true" signature="207:247" ph="{ ... }" />
+            <marker date="1502230697000" expanded="true" signature="267:697" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="312:461" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="374:455" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="507:691" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="558:685" ph="do ... end" />
+            <marker date="1502230697000" expanded="true" signature="573:599" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/users_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding />
         </state>
       </provider>
