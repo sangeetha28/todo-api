@@ -2,7 +2,6 @@
 require_relative 'concerns/response.rb'
 
 class ItemsController < ApplicationController
-  include ResponseHelper
 
   before_action :set_todo
  before_action :set_todo_item, only: [:show,:update,:destroy]

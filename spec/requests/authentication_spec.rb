@@ -1,46 +1,3 @@
-# require 'rails_helper'
-#
-# RSpec.describe AuthenticationController, type: :request do
-#
-#   describe 'POST auth/login' do
-#     let!(:user) {create(:user)}
-#     let(:headers) {valid_headers.except('Authorization')}
-#     let(:valid_credentials) do
-#       {
-#         email: user.email,
-#         password: user.pssword
-#
-#       }.to_json
-#     end
-#
-#     let(:invalid_credentials) do
-#       {
-#         email: Faker::Internet.email,
-#         password: Faker::Internet.password
-#       }.to_json
-#     end
-#   end
-#
-#
-#   context 'when request is valid' do
-#     before { post 'auth/login', params: valid_credentials, headers: headers}
-#
-#     it 'returns auth Token' do
-#       expect(json['auth_token']).not_to_be_nil
-#     end
-#   end
-#
-#   context 'when request is valid' do
-#     before { post 'auth/login', params: invalid_credentials, headers: headers}
-#
-#     it 'returns Invalid credentails message' do
-#       expect(json['message']).to match(/Invalid Credentials/)
-#     end
-#   end
-#
-# end
-
-
 # spec/requests/authentication_spec.rb
 require 'rails_helper'
 
@@ -55,7 +12,7 @@ RSpec.describe 'Authentication', type: :request do
     let(:valid_credentials) do
       {
         email: user.email_address,
-        password: user.password_digest
+        password: user.password
       }.to_json
     end
     let(:invalid_credentials) do
