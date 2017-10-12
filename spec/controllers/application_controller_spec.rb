@@ -6,22 +6,22 @@ RSpec.describe ApplicationController, type: :controller do
   # Mock `Authorization` header
   let(:headers) { {'Authorization' => token_generator(user.id)} }
   # Invalid request subject
-  let(:invalid_headers) { {'Authorization' => nil} }
+  let(:invalid_header) { {'Authorization' => nil} }
 
   describe 'authorize requests' do
     # returns user object when request is valid
     context 'when request is valid' do
 
-      before { allow(request).to receive(:header).and_return(headers)}
+      before { allow(request).to receive(:headers).and_return(headers)}
 
       it 'returns a current user' do
         expect(subject.instance_eval {authorize_request}).to eq(user)
       end
     end
 
-    context 'when token is missing' do
 
-      before { allow(request).to receive(:invalid_header).and_return(invalid_headers)}
+    context 'when token is missing' do
+      before { allow(request).to receive(:headers).and_return(invalid_header)}
 
       it 'throws an exception' do
         expect{ subject.instance_eval {authorize_request}}.
